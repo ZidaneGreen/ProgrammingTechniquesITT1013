@@ -9,7 +9,7 @@ Date Created: July 20, 2025
 
 Course: ITT103 – Programming Techniques
 
-GitHub Public URL:
+GitHub Public URL: https://github.com/ZidaneGreen/ProgrammingTechniquesITT1013
 
 ---
 
