@@ -1,0 +1,49 @@
+						HOSPITAL MANAGEMENT SYSTEM
+
+
+
+
+Authors: Zidane Green
+
+Date Created: July 20, 2025
+
+Course: ITT103 – Programming Techniques
+
+GitHub Public URL:
+
+---
+
+Purpose of the Program: This Python program is a Hospital Management System designed to handle the core operations of a basic hospital. It allows users to:
+
+Add new patients and doctors
+Book and cancel appointments
+Generate bills for consultations
+Validate inputs for gender, specialty, and availability
+
+The program uses Object-Oriented Programming (OOP) to ensure that the code is structured, reusable, and easy to maintain.
+
+
+How to Run the Program:
+
+Open the Python file using an IDE like PyCharm, VS Code or run it from a terminal.
+Ensure Python is installed on your system.
+Run the script
+Follow the menu prompts to interact with the system.
+
+
+Required Modifications:
+
+To further improve the program, the following enhancements are recommended:
+Save and load data from a file or database so information is not lost when the program closes.
+Add user authentication to restrict access.
+Add more detailed billing features (e.g., different rates based on doctor or service).
+Enable viewing and printing of full appointment history for each patient or doctor.
+
+
+
+Program Limitations:
+Doctor and patient IDs are generated randomly during runtime and are not saved permanently.
+Data will be lost once the program ends unless modified to include file/database storage.
+The system currently runs in the console; there is no GUI.
+Input is expected to be manually typed and not pulled from any external system.
+Time availability is based on user input and is not validated against real-world time formats.
