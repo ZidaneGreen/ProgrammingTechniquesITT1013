@@ -1,0 +1,46 @@
+		HOSPITAL MANAGEMENT SYSTEM
+
+Author: Zidane Green
+Date Created: July 20, 2025
+Course: ITT103 – Programming Techniques
+GitHub Public URL: https://github.com/ZidaneGreen/ProgrammingTechniquesITT1013
+
+
+Purpose of the Program
+
+This Python-based Hospital Management System was developed using Object-Oriented Programming (OOP) principles. It is designed to simulate core administrative functions of a hospital within a console-based interface.
+
+The system allows users to:
+- Add new Patients and Doctors
+- Assign Doctor Specialties from a predefined list
+- Book, cancel, and reschedule Appointments
+- View Patient Profiles and Doctor Schedules
+- Generate printable Billing Receipts
+- Display outputs using the enhanced `rich` library (for better formatting and user experience)
+
+
+How to Run the Program
+
+1. Make sure Python is installed on your machine.
+2. Install the `rich` module (if not already installed) by running:
+   pip install rich
+3. Open the Python script in your preferred IDE.
+4. Run the script: python hospital_management_system.py
+5. Use the menu-driven interface to interact with the system.
+
+Recommended Improvements
+
+To further enhance functionality, the following features can be added:
+- Integrate a simple database (like SQLite) to retain data across sessions.
+- Authentication: Add login credentials for admin/medical staff.
+- GUI Integration: Use Tkinter, PyQt, or a web framework like Flask to create a user-friendly interface.
+
+---
+
+Assumptions & Limitations
+
+- Doctor and Patient IDs are randomly generated at runtime and are not persistent.
+- All data is stored in-memory only (no database or file storage implemented).
+- Time slots are entered manually without validation against actual time formats.
+- User input is required for all operations; there's no real-time automation or external system integration.
+- The system runs as a CLI (Command Line Interface) application.
